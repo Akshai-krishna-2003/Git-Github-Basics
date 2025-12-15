@@ -1,0 +1,22 @@
+Learning git 
+
+What is git?
+It is a version control system and a code saving repository system. 
+Git tracks all changes you make 
+What how who and when everything is tracked.
+
+Git vs github? 
+Git -> This works on your local
+Github (Remote repository) -> Central hub for collaborative works 
+
+Architecture 
+Local (Laptop) --> Remote (Cloud)
+
+Working directory --> Staging Directory --> Save to local repository (Commit)
+
+Repository: Place where your code lives with all its changes 
+
+After saving to local repository (commit) -- Push --> Cloud repository 
+
+Local repository -- Push --> Remote Repository
+Remote repository -- Pull --> Local Repository
