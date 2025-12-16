@@ -6,4 +6,50 @@ Command 2: Clone a repository:
 git clone <url> 
 -- Getting remote repository to local storage
 
-19:10
+Command 3: To check status: 
+git status
+-- Git check on which files are changed 
+
+Command 4: Moving changes to staging area:
+
+git add --all (or) git add -a
+-- Moving all files in the project to staging area
+
+git add .
+-- Moving all files to staging inside current working directory 
+Eg. If you are in a root project and then you move to a folder using cd command and do git add .
+Only changes in that directory will be staged
+
+git add *
+-- Only to stage new or modified files and not deleted ones 
+
+git add filename.ext
+-- Only to track 1 file changes
+
+git add *.txt 
+-- Only track added or modified .txt files to staging area
+
+Command 5: Unstage changes from staging area:
+
+git reset
+-- Unstage changes from staging area
+
+Command 6: Commiting into local repository:
+
+git commit -m "message"
+-- Commiting to local repo
+
+Command 7: Adding configurations:
+
+git config --global user.email "emailid"
+-- Adding email address globally (since it uses a global flag)
+
+git config --global user.name "username"
+-- Adding email address globally (since it uses a global flag)
+
+Note: If you use --local flag instead of global flag changes are done to a particular repo Only
+
+Command 8: Undo last commit and bring to last commit
+
+git reset HEAD~
+-- Undo last commit and bring to last commit

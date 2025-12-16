@@ -20,3 +20,8 @@ After saving to local repository (commit) -- Push --> Cloud repository
 
 Local repository -- Push --> Remote Repository
 Remote repository -- Pull --> Local Repository
+
+To create a git repo either
+1. Make it locally 
+2. Clone it from a remote repository
+
