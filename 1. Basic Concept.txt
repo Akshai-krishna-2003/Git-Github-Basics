@@ -25,3 +25,17 @@ To create a git repo either
 1. Make it locally 
 2. Clone it from a remote repository
 
+Concept of Branching 
+Instead of doing changes in the main branch we make a separate branch 
+with separate names 
+Once we try and test all those features 
+We just merge the changes to main branch 
+
+So it is like 
+Make a new branch --> Test your new features there 
+Once it is perfected --> Merge it to main branch 
+
+Merge --> Combining 2 branches into a single branch 
+
+A branch will take exactly the same state as the previous branch when it is created 
+So new branch takes the state of current working branch

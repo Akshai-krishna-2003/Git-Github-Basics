@@ -74,3 +74,18 @@ git reset --hard
 Command 11: To see entire commit history
 
 git log
+
+Command 12: To see all branches inside the repo
+
+git branch
+
+Command 13: To create a new branch
+
+git branch branch_name
+
+Note: A branch will take exactly the same state as the previous branch when it is created 
+So new branch takes the state of current working branch
+
+Command 14: To switch branch 
+git checkout branch_name
+
