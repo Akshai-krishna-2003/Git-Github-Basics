@@ -89,3 +89,8 @@ So new branch takes the state of current working branch
 Command 14: To switch branch 
 git checkout branch_name
 
+Command 15: To merge a branch from another branch 
+git merge branch_name -m "Merge message"
+
+Note: If you want to merge branch A to branch B
+You need to be in branch A and use the above command to merge branch B to branch A
