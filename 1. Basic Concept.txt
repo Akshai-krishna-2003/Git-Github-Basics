@@ -39,3 +39,8 @@ Merge --> Combining 2 branches into a single branch
 
 A branch will take exactly the same state as the previous branch when it is created 
 So new branch takes the state of current working branch
+
+Create a new branch and commit everything there 
+Then if you switch to older branch you wont see anything 
+See the thing is newer branch has newer commits and older branch has older commits
+And older branch you can see in the same state as you left
