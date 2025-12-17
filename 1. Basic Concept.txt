@@ -44,3 +44,21 @@ Create a new branch and commit everything there
 Then if you switch to older branch you wont see anything 
 See the thing is newer branch has newer commits and older branch has older commits
 And older branch you can see in the same state as you left
+
+Concept of Merge Conflict 
+So if you make a change in branch 1 and the you commit it 
+Then you make another change in branch 2 and you commit it 
+But imagine it is done in the same file 
+So you have a change in your main branch and your incoming branch has something else
+
+Then you use merge command 
+You will see a message from git in the same folder saying which changes to keep 
+Either your changes in same branch 
+or 
+Changes from incoming branch 
+or 
+Both changes together 
+This needs to be done manually 
+
+Note: If you change branch without committing in the same branch 
+you can see those same changes in the switched branch as well
