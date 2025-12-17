@@ -53,3 +53,5 @@ Command 8: Undo last commit and bring to last commit
 
 git reset HEAD~
 -- Undo last commit and bring to last commit
+
+pushing a minor change
