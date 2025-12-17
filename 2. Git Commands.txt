@@ -53,3 +53,24 @@ Command 8: Undo last commit and bring to last commit
 
 git reset HEAD~
 -- Undo last commit and bring to last commit
+
+Command 9: To delete a file and stage at the same time 
+
+git rm "filename.ext"
+
+git rm -f "filename.ext"
+-- To forcefully delete a file
+
+git rm --cached "filename.ext"
+-- To keep the file physically intact but remove it from staging area
+
+git rm -r "FOLDER"
+-- To delete a folder and its contents recursively (-r)
+
+Command 10: To get back deleted files and modified files 
+
+git reset --hard
+
+Command 11: To see entire commit history
+
+git log
