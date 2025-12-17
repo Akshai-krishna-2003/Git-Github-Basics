@@ -89,6 +89,9 @@ So new branch takes the state of current working branch
 Command 14: To switch branch 
 git checkout branch_name
 
+git checkout commit-id
+-- To check what has happened in the given commit ID
+
 Command 15: To merge a branch from another branch 
 git merge branch_name -m "Merge message"
 
