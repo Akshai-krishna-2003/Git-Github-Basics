@@ -75,6 +75,8 @@ Command 11: To see entire commit history
 
 git log
 
+git log --oneline
+
 Command 12: To see all branches inside the repo
 
 git branch
