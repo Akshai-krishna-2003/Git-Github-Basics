@@ -124,4 +124,34 @@ immediately from the remote repository
 git pull
 -- git pull = git fetch + git merge
 
+Command 20: If you have to come back to previous commit before doing a staging or commit use
+Only changes till staging area can be reverted (Reverting changes before commit)
+
+git restore filename.ext
+- To restore only till a file 
+
+git restore directory_name 
+- To restore entire directory
+
+git restore .
+- To restore entire directory changes
+
+git restore --staged filename/directory/.
+-- To restore from staging area 
+
+Command 21: Git stash 
+-- It is used to store uncommitted changes somewhere in local and use it later 
+
+git stash
+-- This is the command
+
+git stash pop 
+-- Brings back the changes again
+-- Once you make a pop the changes are never in your stash every again 
+
+git stash apply 
+-- To bring back changes but without popping it out of git stash 
+
+git stash list 
+-- To view list of stashes in the repository
 
