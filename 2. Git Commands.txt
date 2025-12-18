@@ -109,6 +109,10 @@ Note: Newer commit comes first then comes the older commit and hence its how it 
 Command 17: Sending local changes to remote repository (push)
 
 git push 
+-- This pushes new changes to remote repo immediatley on current branch 
+
+git push origin branch/branch_name
+-- This pushes new branch to remote repo
 
 Command 18: Bringing remote changes to local repository but not merging yet (fetch)
 
