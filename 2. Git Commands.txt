@@ -147,11 +147,22 @@ git stash
 
 git stash pop 
 -- Brings back the changes again
--- Once you make a pop the changes are never in your stash every again 
+-- Once you make a pop the changes are never in your stash list every again 
 
 git stash apply 
--- To bring back changes but without popping it out of git stash 
+-- To bring back changes but without popping it out of git stash list
 
 git stash list 
 -- To view list of stashes in the repository
 
+PS C:\Akshai\Learning_task\Learning_Git> git stash list 
+stash@{0}: WIP on master: 98af327 changes
+
+You can go to a particular stash using 
+git stash apply stash@{0}
+
+Command 22: Reverting to a older commit (git revert)
+git revert commitid 
+-- Git revert creates a new commit from an older commit without restetting the commit id 
+or commit history 
+-- On the other hand git reset changes the commit history or commit ids 
