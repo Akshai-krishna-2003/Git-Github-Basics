@@ -99,3 +99,8 @@ git merge branch_name -m "Merge message"
 
 Note: If you want to merge branch A to branch B
 You need to be in branch A and use the above command to merge branch B to branch A
+
+Command 16: How to compare two commits
+
+git diff commitid1 commitid2
+-- Comparing commitid1 with reference to commitid2
