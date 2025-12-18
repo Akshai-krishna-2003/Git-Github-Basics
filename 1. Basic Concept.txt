@@ -67,3 +67,8 @@ Git pull, fetch and push is explained in Git commands.txt
 
 Concept of Git stash
 Temporarily set aside your unfinished work, switch to another branch to do something
+
+Git pull request 
+You cannot directly make changes in someone else's branch 
+once you make changes you ask permission to the person if everything is fine 
+Add changes and merge it 

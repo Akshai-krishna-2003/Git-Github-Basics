@@ -166,3 +166,15 @@ git revert commitid
 -- Git revert creates a new commit from an older commit without restetting the commit id 
 or commit history 
 -- On the other hand git reset changes the commit history or commit ids 
+-- Give a new commit message and the use 
+Shift + : and wq (Write and quit)
+
+Command 23: Rebase 
+
+git rebase branch_name 
+-- Imagine your development branch you took a branch from it 
+And you are working on it 
+Another developer is working on the development branch 
+if you want the changes of development branch in your current branch and need a cleaner commit history 
+Use git rebase 
+Before using git rebase ensure you inform your team mates as it can re write your commit history 
