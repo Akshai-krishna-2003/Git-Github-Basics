@@ -75,6 +75,8 @@ Command 11: To see entire commit history
 
 git log
 
+git log --oneline
+
 Command 12: To see all branches inside the repo
 
 git branch
@@ -89,8 +91,37 @@ So new branch takes the state of current working branch
 Command 14: To switch branch 
 git checkout branch_name
 
+git checkout commit-id
+-- To check what has happened in the given commit ID
+
 Command 15: To merge a branch from another branch 
 git merge branch_name -m "Merge message"
 
 Note: If you want to merge branch A to branch B
 You need to be in branch A and use the above command to merge branch B to branch A
+
+Command 16: How to compare two commits
+
+git diff commitid1 commitid2
+-- Comparing commitid1 with reference to commitid2
+Note: Newer commit comes first then comes the older commit and hence its how it is working
+
+Command 17: Sending local changes to remote repository (push)
+
+git push 
+-- This pushes new changes to remote repo immediatley on current branch 
+
+git push origin branch/branch_name
+-- This pushes new branch to remote repo
+
+Command 18: Bringing remote changes to local repository but not merging yet (fetch)
+
+git fetch
+
+Command 19: Fetching and merging at the same time so my working directory shows the changes 
+immediately from the remote repository
+
+git pull
+-- git pull = git push + git merge
+
+
