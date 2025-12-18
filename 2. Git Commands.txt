@@ -122,6 +122,6 @@ Command 19: Fetching and merging at the same time so my working directory shows 
 immediately from the remote repository
 
 git pull
--- git pull = git push + git merge
+-- git pull = git fetch + git merge
 
 
