@@ -5,5 +5,3 @@ Merge conflict 1
 
 Changes in command 1 to check in git diff
 Adding 1st line and removing merge conflict 2
-
-Chembazhukka 
